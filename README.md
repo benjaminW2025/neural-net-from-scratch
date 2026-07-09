@@ -6,7 +6,7 @@ This project implements a fully connected neural network in pure Python with the
 
 Our network is a two layer fully connected neural network using the sigmoid activation in its hidden layer, and softmax activation to generate the final layer probabilities. A brief outline:
 
-vectorized inputs -> first linear layer -> sigmoid activation -> second linear layer -> softmax output -> argmax prediction
+vectorized inputs -> first linear layer -> sigmoid activation -> second linear layer -> softmax output -> max prediction
 
 We train with vanilla gradient descent, all derivatives are hand implemented and gradients computed manually. Code is all included in nerual_net.py.
 
